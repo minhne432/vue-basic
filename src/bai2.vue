@@ -5,7 +5,7 @@
   <button @click="increament">+1</button>
   <button @click="($event) => (check = !check)">Show/Hide</button>
 
-  <input type="text" v-model="title" />
+  <input type="text" v-model="animals" />
 
   <br />
   <ul>
